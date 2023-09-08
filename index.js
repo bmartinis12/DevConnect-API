@@ -15,7 +15,6 @@ const postRoutes = require('./routes/post.js');
 const { verifyToken } = require('./middleware/auth.js');
 const createPost = require('./contollers/post.js').createPost;
 const fileURLToPath = require('url').fileURLToPath;
-const { users, posts } = require('./data/index.js');
 const User = require('./models/user.js').User;
 const Post = require('./models/post.js').Post;
 
